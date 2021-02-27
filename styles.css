@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+main p {
+    width: 80%;
+    margin-bottom: 70px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 30px;
+    background: #545454;
+    background-image: -webkit-linear-gradient(top, #545454, #0c212e);
+    background-image: -moz-linear-gradient(top, #545454, #0c212e);
+    background-image: -ms-linear-gradient(top, #545454, #0c212e);
+    background-image: -o-linear-gradient(top, #545454, #0c212e);
+    background-image: linear-gradient(to bottom, #545454, #0c212e);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background: #899399;
+    background-image: -webkit-linear-gradient(top, #899399, #58636b);
+    background-image: -moz-linear-gradient(top, #899399, #58636b);
+    background-image: -ms-linear-gradient(top, #899399, #58636b);
+    background-image: -o-linear-gradient(top, #899399, #58636b);
+    background-image: linear-gradient(to bottom, #899399, #58636b);
+    text-decoration: none;
+  }
+
+  @media only screen and (min-width: 710px) {
+
+    figure {
+        float: left;
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    footer {
+        clear: left;
+    }
+  }
